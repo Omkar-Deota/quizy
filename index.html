@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="landing">
+      <h1>Welcome to Quiz Master</h1>
+      <div id="level-dropdown">
+        <label for="level">Select Level:</label>
+        <select id="level">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+    </div>
+    <div id="show" class="hide">
+      <h1> Quiz Master </h1>
+      <div id="questions">
+          <div id="detail">
+            <div id="timer" ></div>
+            <div class="formatter">
+
+                <div id="questionno"></div>
+                <div id="questiontext"> question done out of 10</div>
+            </div>
+        </div>
+        <h2 id="question">Question goes here...</h2> 
+        <ul id="options">
+          <li><button class="option">Option 1</button></li>
+          <li><button class="option">Option 2</button></li>
+          <li><button class="option">Option 3</button></li>
+          <li><button class="option">Option 4</button></li>
+        </ul>
+      </div>
+      <div id="feedback"></div>
+      <div id="feedbacktime"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

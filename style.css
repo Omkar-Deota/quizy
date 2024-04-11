@@ -1,0 +1,133 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Container styles */
+  #landing,
+  #show {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Level dropdown styles */
+  #level-dropdown {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #level-dropdown label {
+    font-size: 18px;
+  }
+  
+  #level {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  /* Start button styles */
+  #start-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #start-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Quiz content styles */
+  #questions {
+    margin-top: 20px;
+  }
+  
+  /* Question number and text styles */
+  #detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  #questionno {
+    font-weight: bold;
+  }
+  
+  #questiontext {
+    color: #666;
+  }
+  
+  /* Timer styles */
+  #timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Question and options styles */
+  #question {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #options {
+    list-style-type: none;
+  }
+  
+  .option {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Feedback styles */
+  #feedback {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #feedbacktime {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Hide class */
+  .hide {
+    display: none;
+  }
+  
